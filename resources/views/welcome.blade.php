@@ -48,6 +48,7 @@
   <a class="nav-link active" href="/home" target="_blank">Home</a>
   <a class="nav-link " href="/contact" target="_blank">Contact</a>
   <a class="nav-link " href="/about" target="_blank">About</a>
+  <a class="nav-link " href="/team" target="_blank">Team</a>
   </li>
 </ul>
     </body>

@@ -27,3 +27,4 @@ Route::get('about', function () {
 });*/
 Route::get('/about','PageController@about');
 Route::get('/contact','PageController@contact');
+Route::get('/team','PageController@team');

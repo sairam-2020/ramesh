@@ -28,6 +28,10 @@
       <li class="nav-item">
         <a class="nav-link" href="/contact">Contact</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/team">Team</a>
+      </li>
+
     </ul>
     <span class="navbar-text">
       Mail us - visaaram@gmail.com

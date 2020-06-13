@@ -8,17 +8,32 @@ class PageController extends Controller
 {
     public function home()
     {
-return view('pages/home',['name' => 'Ramesh','about' => 'He is very Decent and nice man. I like him very much and i love him']);
+        date_default_timezone_set("Asia/Calcutta");
+        $Hour=date('G');
+        
+return view('pages.home',
+[
+    'name' => 'Ramesh',
+    'about' => 'He is very Decent and nice man. I like him very much and i love him',
+    'hour' => $Hour
+    ]);
 
     }
     public function about()
     {
-return view('pages/about',['name' => 'Ramesh','about' => 'He is very Decent and nice man. I like him very much and i love him']);
+return view('pages.about');
 
     }
     public function contact()
     {
-return view('pages/contact',['name' => 'Ramesh','about' => 'He is very Decent and nice man. I like him very much and i love him']);
+return view('pages.contact');
+
+    }
+    public function team()
+    {
+return view('pages.team',[
+    'totalmembers'=>20
+]);
 
     }
 }
