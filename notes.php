@@ -33,7 +33,7 @@ blade
 @else
 <h2>Hi guest </h2>
 endif 
-
+php artisan serve
 
 push
 pull
@@ -42,4 +42,5 @@ merge - make together the changes
 master - v1.0.0 
 dev - branch
 
+php artisan route:list
 
